@@ -7,8 +7,24 @@ for row in matrices:
         print(item)
 
 """
-This is a multi-line comment block added at the end of the file.
-You can write notes here about how the nested list is structured,
-how the loops iterate over each row and each item, or any other
-information you want to keep with the code.
+# List's Methods & Functions
+
+append()
+insert(index,  )
+remove()
+clear()
+pop()
+(List_name.index())
+count()
+sort()
+reverse()
+copy()
+
 """
+
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
